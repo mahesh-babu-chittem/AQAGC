@@ -1,0 +1,5086 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d19" for="edge" attr.name="edge_rank" attr.type="long"/>
+<key id="d18" for="edge" attr.name="destination_risk" attr.type="double"/>
+<key id="d17" for="edge" attr.name="normalized_weight" attr.type="double"/>
+<key id="d16" for="edge" attr.name="edge_weight" attr.type="double"/>
+<key id="d15" for="edge" attr.name="timestamp" attr.type="string"/>
+<key id="d14" for="edge" attr.name="attack_label" attr.type="string"/>
+<key id="d13" for="edge" attr.name="transition_frequency" attr.type="long"/>
+<key id="d12" for="edge" attr.name="dataset" attr.type="string"/>
+<key id="d11" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d10" for="edge" attr.name="edge_id" attr.type="long"/>
+<key id="d9" for="node" attr.name="risk_score" attr.type="double"/>
+<key id="d8" for="node" attr.name="communication_frequency" attr.type="double"/>
+<key id="d7" for="node" attr.name="privilege" attr.type="double"/>
+<key id="d6" for="node" attr.name="exploitability" attr.type="double"/>
+<key id="d5" for="node" attr.name="severity" attr.type="double"/>
+<key id="d4" for="node" attr.name="protocol" attr.type="string"/>
+<key id="d3" for="node" attr.name="port" attr.type="string"/>
+<key id="d2" for="node" attr.name="dataset" attr.type="string"/>
+<key id="d1" for="node" attr.name="identifier" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="0">
+  <data key="d0">SERVICE</data>
+  <data key="d1">0:0</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">0</data>
+  <data key="d4">0</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.13109423597366401</data>
+  <data key="d9">0.2218</data>
+</node>
+<node id="1">
+  <data key="d0">SERVICE</data>
+  <data key="d1">22:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">22</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.14979601728803973</data>
+  <data key="d9">0.225</data>
+</node>
+<node id="2">
+  <data key="d0">SERVICE</data>
+  <data key="d1">80:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">80</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">1.0</data>
+  <data key="d9">0.3667</data>
+</node>
+<node id="3">
+  <data key="d0">SERVICE</data>
+  <data key="d1">67:17</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">67</data>
+  <data key="d4">17</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.008240093710869653</data>
+  <data key="d9">0.2014</data>
+</node>
+<node id="4">
+  <data key="d0">SERVICE</data>
+  <data key="d1">9984:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">9984</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0004645150866421618</data>
+  <data key="d9">0.2001</data>
+</node>
+<node id="5">
+  <data key="d0">SERVICE</data>
+  <data key="d1">21:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">21</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.14912953912024882</data>
+  <data key="d9">0.2249</data>
+</node>
+<node id="6">
+  <data key="d0">SERVICE</data>
+  <data key="d1">443:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">443</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.3562022862220786</data>
+  <data key="d9">0.2594</data>
+</node>
+<node id="128">
+  <data key="d0">SERVICE</data>
+  <data key="d1">49518:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">49518</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001211778486892596</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="129">
+  <data key="d0">SERVICE</data>
+  <data key="d1">49978:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">49978</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001817667730338894</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="130">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50056:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50056</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001716686189764511</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="131">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50220:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50220</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0021408086601769198</data>
+  <data key="d9">0.2004</data>
+</node>
+<node id="132">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51946:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51946</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0016560972654198812</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="12">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51938:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51938</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0011915821787777195</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="13">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51972:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51972</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0012521711031223493</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="14">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52320:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52320</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001514723108615745</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="15">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52322:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52322</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001110796946318213</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="16">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52624:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52624</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0016762935735347578</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="17">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52764:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52764</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0017570788059942642</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="18">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53668:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53668</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.000807852324595064</data>
+  <data key="d9">0.2001</data>
+</node>
+<node id="19">
+  <data key="d0">SERVICE</data>
+  <data key="d1">54898:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">54898</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014339378761562386</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="24">
+  <data key="d0">SERVICE</data>
+  <data key="d1">57482:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">57482</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014945268005008684</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="30">
+  <data key="d0">SERVICE</data>
+  <data key="d1">35674:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">35674</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0010502080219735833</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="133">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52010:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52010</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0013935452599264854</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="35">
+  <data key="d0">SERVICE</data>
+  <data key="d1">35854:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">35854</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0010502080219735833</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="134">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52006:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52006</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014339378761562386</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="135">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52376:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52376</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014945268005008684</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="136">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52998:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52998</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0017570788059942642</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="53">
+  <data key="d0">SERVICE</data>
+  <data key="d1">43172:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">43172</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014743304923859918</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="65">
+  <data key="d0">SERVICE</data>
+  <data key="d1">48226:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">48226</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0012925637193521025</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="67">
+  <data key="d0">SERVICE</data>
+  <data key="d1">49726:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">49726</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0020398271196025368</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="68">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50284:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50284</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0019994345033727836</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="69">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50846:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50846</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0018984529627984004</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="70">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50866:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50866</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0020600234277174134</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="71">
+  <data key="d0">SERVICE</data>
+  <data key="d1">50906:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">50906</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0017772751141091408</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="72">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51152:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51152</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0012925637193521025</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="73">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51144:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51144</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001615704649190128</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="74">
+  <data key="d0">SERVICE</data>
+  <data key="d1">51204:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">51204</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0021004160439471666</data>
+  <data key="d9">0.2004</data>
+</node>
+<node id="75">
+  <data key="d0">SERVICE</data>
+  <data key="d1">52444:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">52444</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014541341842711152</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="76">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53072:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53072</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0015753120329603748</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="77">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53148:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53148</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0016560972654198812</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="78">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53172:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53172</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0015551157248454982</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="79">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53264:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53264</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0012925637193521025</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="80">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53592:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53592</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.00100981540574383</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="81">
+  <data key="d0">SERVICE</data>
+  <data key="d1">53624:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">53624</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.000605889243446298</data>
+  <data key="d9">0.2001</data>
+</node>
+<node id="89">
+  <data key="d0">SERVICE</data>
+  <data key="d1">56632:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">56632</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0014541341842711152</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="90">
+  <data key="d0">SERVICE</data>
+  <data key="d1">56650:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">56650</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0013733489518116088</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="91">
+  <data key="d0">SERVICE</data>
+  <data key="d1">56696:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">56696</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0015955083410752514</data>
+  <data key="d9">0.2003</data>
+</node>
+<node id="92">
+  <data key="d0">SERVICE</data>
+  <data key="d1">57152:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">57152</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.001413741568041362</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="101">
+  <data key="d0">SERVICE</data>
+  <data key="d1">34572:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">34572</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0013329563355818556</data>
+  <data key="d9">0.2002</data>
+</node>
+<node id="124">
+  <data key="d0">SERVICE</data>
+  <data key="d1">48562:6</data>
+  <data key="d2">CSE_CIC_IDS2018</data>
+  <data key="d3">48562</data>
+  <data key="d4">6</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.1</data>
+  <data key="d7">0.8</data>
+  <data key="d8">0.0008886375570545704</data>
+  <data key="d9">0.2001</data>
+</node>
+<edge source="0" target="2">
+  <data key="d10">3</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5860</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:02</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">1</data>
+</edge>
+<edge source="0" target="6">
+  <data key="d10">7</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3617</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:04</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43646</data>
+</edge>
+<edge source="0" target="1">
+  <data key="d10">2</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">883</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:02:13</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60982</data>
+</edge>
+<edge source="0" target="5">
+  <data key="d10">6</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1128</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:33:30</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64627</data>
+</edge>
+<edge source="0" target="0">
+  <data key="d10">1</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">965</data>
+  <data key="d14">benign</data>
+  <data key="d15">05/01/1970 03:01:17</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68336</data>
+</edge>
+<edge source="0" target="3">
+  <data key="d10">4</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">276</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:27:58</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75273</data>
+</edge>
+<edge source="0" target="131">
+  <data key="d10">23</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:27:09</data>
+  <data key="d16">0.540321</data>
+  <data key="d17">0.0021200424008482877</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">82109</data>
+</edge>
+<edge source="0" target="74">
+  <data key="d10">16</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:04:51</data>
+  <data key="d16">0.540315</data>
+  <data key="d17">0.0020800416008318772</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">84540</data>
+</edge>
+<edge source="0" target="70">
+  <data key="d10">13</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:02:38</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87016</data>
+</edge>
+<edge source="0" target="68">
+  <data key="d10">11</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 09:29:59</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90464</data>
+</edge>
+<edge source="0" target="69">
+  <data key="d10">12</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:37:58</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97862</data>
+</edge>
+<edge source="0" target="129">
+  <data key="d10">22</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:32:14</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105383</data>
+</edge>
+<edge source="0" target="71">
+  <data key="d10">14</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:15:54</data>
+  <data key="d16">0.540267</data>
+  <data key="d17">0.0017600352007042946</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">109777</data>
+</edge>
+<edge source="0" target="16">
+  <data key="d10">10</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:28:24</data>
+  <data key="d16">0.540251</data>
+  <data key="d17">0.0016533664006615205</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">119533</data>
+</edge>
+<edge source="0" target="76">
+  <data key="d10">18</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:43:40</data>
+  <data key="d16">0.540236</data>
+  <data key="d17">0.0015533644006216047</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">132178</data>
+</edge>
+<edge source="0" target="75">
+  <data key="d10">17</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:15:57</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157131</data>
+</edge>
+<edge source="0" target="133">
+  <data key="d10">24</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:24:28</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179329</data>
+</edge>
+<edge source="0" target="72">
+  <data key="d10">15</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 12:55:28</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231839</data>
+</edge>
+<edge source="0" target="128">
+  <data key="d10">21</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:40:53</data>
+  <data key="d16">0.540182</data>
+  <data key="d17">0.0011933572004776116</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">269683</data>
+</edge>
+<edge source="0" target="12">
+  <data key="d10">8</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 01:57:22</data>
+  <data key="d16">0.540179</data>
+  <data key="d17">0.0011733568004690363</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">277419</data>
+</edge>
+<edge source="0" target="15">
+  <data key="d10">9</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:03:33</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">301832</data>
+</edge>
+<edge source="0" target="4">
+  <data key="d10">5</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:30:04</data>
+  <data key="d16">0.54007</data>
+  <data key="d17">0.0004466756001789321</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">494503</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d10">3212</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">147</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:08:25</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">2</data>
+</edge>
+<edge source="1" target="6">
+  <data key="d10">3219</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">93</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:08:26</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43647</data>
+</edge>
+<edge source="1" target="1">
+  <data key="d10">3210</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">90</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:08:26</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60983</data>
+</edge>
+<edge source="1" target="5">
+  <data key="d10">3217</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">42</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:35:00</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64628</data>
+</edge>
+<edge source="1" target="0">
+  <data key="d10">3208</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">38</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:19:20</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68337</data>
+</edge>
+<edge source="1" target="3">
+  <data key="d10">3214</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 09:24:26</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75274</data>
+</edge>
+<edge source="1" target="131">
+  <data key="d10">3342</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:32:04</data>
+  <data key="d16">0.540321</data>
+  <data key="d17">0.0021200424008482877</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">82122</data>
+</edge>
+<edge source="1" target="74">
+  <data key="d10">3287</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:05:05</data>
+  <data key="d16">0.540315</data>
+  <data key="d17">0.0020800416008318772</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">84555</data>
+</edge>
+<edge source="1" target="70">
+  <data key="d10">3283</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:48</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87030</data>
+</edge>
+<edge source="1" target="67">
+  <data key="d10">3280</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:15</data>
+  <data key="d16">0.540306</data>
+  <data key="d17">0.0020200404008076317</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">88008</data>
+</edge>
+<edge source="1" target="68">
+  <data key="d10">3281</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:04:57</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90493</data>
+</edge>
+<edge source="1" target="69">
+  <data key="d10">3282</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:32:22</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97873</data>
+</edge>
+<edge source="1" target="129">
+  <data key="d10">3340</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:31:57</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105409</data>
+</edge>
+<edge source="1" target="71">
+  <data key="d10">3284</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:49</data>
+  <data key="d16">0.540267</data>
+  <data key="d17">0.0017600352007042946</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">109817</data>
+</edge>
+<edge source="1" target="17">
+  <data key="d10">3231</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:06:09</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112469</data>
+</edge>
+<edge source="1" target="136">
+  <data key="d10">3347</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:24</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112470</data>
+</edge>
+<edge source="1" target="130">
+  <data key="d10">3341</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:32:00</data>
+  <data key="d16">0.540258</data>
+  <data key="d17">0.0017000340006800491</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">116100</data>
+</edge>
+<edge source="1" target="16">
+  <data key="d10">3230</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:13</data>
+  <data key="d16">0.540251</data>
+  <data key="d17">0.0016533664006615205</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">119564</data>
+</edge>
+<edge source="1" target="77">
+  <data key="d10">3290</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:28</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122000</data>
+</edge>
+<edge source="1" target="132">
+  <data key="d10">3343</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:15:46</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122001</data>
+</edge>
+<edge source="1" target="73">
+  <data key="d10">3286</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:56</data>
+  <data key="d16">0.540242</data>
+  <data key="d17">0.0015933652006372748</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">126720</data>
+</edge>
+<edge source="1" target="91">
+  <data key="d10">3303</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:08:02</data>
+  <data key="d16">0.540239</data>
+  <data key="d17">0.0015733648006294398</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">129417</data>
+</edge>
+<edge source="1" target="76">
+  <data key="d10">3289</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:06:18</data>
+  <data key="d16">0.540236</data>
+  <data key="d17">0.0015533644006216047</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">132212</data>
+</edge>
+<edge source="1" target="78">
+  <data key="d10">3291</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:19:54</data>
+  <data key="d16">0.540233</data>
+  <data key="d17">0.0015333640006130293</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">135262</data>
+</edge>
+<edge source="1" target="14">
+  <data key="d10">3228</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:05:56</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142536</data>
+</edge>
+<edge source="1" target="24">
+  <data key="d10">3237</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:08:25</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">146836</data>
+</edge>
+<edge source="1" target="135">
+  <data key="d10">3346</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:06</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">146838</data>
+</edge>
+<edge source="1" target="53">
+  <data key="d10">3266</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:28:41</data>
+  <data key="d16">0.540221</data>
+  <data key="d17">0.0014533624005809488</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">151181</data>
+</edge>
+<edge source="1" target="75">
+  <data key="d10">3288</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:19:34</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157153</data>
+</edge>
+<edge source="1" target="89">
+  <data key="d10">3301</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:35:08</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157154</data>
+</edge>
+<edge source="1" target="19">
+  <data key="d10">3233</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:07:10</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163214</data>
+</edge>
+<edge source="1" target="134">
+  <data key="d10">3345</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:09:01</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163215</data>
+</edge>
+<edge source="1" target="92">
+  <data key="d10">3304</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:21:49</data>
+  <data key="d16">0.540212</data>
+  <data key="d17">0.0013933612005574433</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">170825</data>
+</edge>
+<edge source="1" target="133">
+  <data key="d10">3344</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:15:52</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179357</data>
+</edge>
+<edge source="1" target="90">
+  <data key="d10">3302</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:35:09</data>
+  <data key="d16">0.540206</data>
+  <data key="d17">0.001353360400541033</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">188961</data>
+</edge>
+<edge source="1" target="101">
+  <data key="d10">3313</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:24:33</data>
+  <data key="d16">0.5402</data>
+  <data key="d17">0.0013133596005253626</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">208718</data>
+</edge>
+<edge source="1" target="65">
+  <data key="d10">3278</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:31:07</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231856</data>
+</edge>
+<edge source="1" target="72">
+  <data key="d10">3285</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:56</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231857</data>
+</edge>
+<edge source="1" target="79">
+  <data key="d10">3292</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:31</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231858</data>
+</edge>
+<edge source="1" target="13">
+  <data key="d10">3227</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:05:46</data>
+  <data key="d16">0.540188</data>
+  <data key="d17">0.001233358000493282</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">253022</data>
+</edge>
+<edge source="1" target="128">
+  <data key="d10">3339</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:18:09</data>
+  <data key="d16">0.540182</data>
+  <data key="d17">0.0011933572004776116</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">269708</data>
+</edge>
+<edge source="1" target="12">
+  <data key="d10">3226</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:05:46</data>
+  <data key="d16">0.540179</data>
+  <data key="d17">0.0011733568004690363</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">277434</data>
+</edge>
+<edge source="1" target="15">
+  <data key="d10">3229</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:05:55</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">301855</data>
+</edge>
+<edge source="1" target="30">
+  <data key="d10">3243</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:11:31</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322426</data>
+</edge>
+<edge source="1" target="35">
+  <data key="d10">3248</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:25:10</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322427</data>
+</edge>
+<edge source="1" target="80">
+  <data key="d10">3293</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:33:40</data>
+  <data key="d16">0.540151</data>
+  <data key="d17">0.0009866864003949215</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">341142</data>
+</edge>
+<edge source="1" target="124">
+  <data key="d10">3335</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:44:52</data>
+  <data key="d16">0.540133</data>
+  <data key="d17">0.0008666840003464305</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">408006</data>
+</edge>
+<edge source="1" target="18">
+  <data key="d10">3232</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:06:35</data>
+  <data key="d16">0.540121</data>
+  <data key="d17">0.0007866824003143498</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">439891</data>
+</edge>
+<edge source="1" target="81">
+  <data key="d10">3294</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:20:07</data>
+  <data key="d16">0.540091</data>
+  <data key="d17">0.0005866784002345181</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">477484</data>
+</edge>
+<edge source="1" target="4">
+  <data key="d10">3216</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">ssh-bruteforce</data>
+  <data key="d15">14/02/2018 02:02:29</data>
+  <data key="d16">0.54007</data>
+  <data key="d17">0.0004466756001789321</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">494523</data>
+</edge>
+<edge source="2" target="2">
+  <data key="d10">6986</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">99064</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:00</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">4</data>
+</edge>
+<edge source="2" target="6">
+  <data key="d10">6996</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">34996</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:00</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43649</data>
+</edge>
+<edge source="2" target="1">
+  <data key="d10">6983</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7035</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:03:07</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60985</data>
+</edge>
+<edge source="2" target="5">
+  <data key="d10">6994</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11695</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:18:58</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64630</data>
+</edge>
+<edge source="2" target="0">
+  <data key="d10">6980</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5696</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:05</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68339</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d10">6990</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">296</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:01</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75276</data>
+</edge>
+<edge source="2" target="131">
+  <data key="d10">7167</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:45:21</data>
+  <data key="d16">0.540321</data>
+  <data key="d17">0.0021200424008482877</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">82128</data>
+</edge>
+<edge source="2" target="74">
+  <data key="d10">7091</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 11:17:19</data>
+  <data key="d16">0.540315</data>
+  <data key="d17">0.0020800416008318772</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">84564</data>
+</edge>
+<edge source="2" target="70">
+  <data key="d10">7082</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:58:37</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87044</data>
+</edge>
+<edge source="2" target="67">
+  <data key="d10">7074</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:36:03</data>
+  <data key="d16">0.540306</data>
+  <data key="d17">0.0020200404008076317</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">88017</data>
+</edge>
+<edge source="2" target="68">
+  <data key="d10">7076</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:42:37</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90510</data>
+</edge>
+<edge source="2" target="69">
+  <data key="d10">7079</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:57:13</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97891</data>
+</edge>
+<edge source="2" target="129">
+  <data key="d10">7161</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:49:21</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105427</data>
+</edge>
+<edge source="2" target="71">
+  <data key="d10">7084</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:33:38</data>
+  <data key="d16">0.540267</data>
+  <data key="d17">0.0017600352007042946</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">109852</data>
+</edge>
+<edge source="2" target="17">
+  <data key="d10">7016</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:01:40</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112491</data>
+</edge>
+<edge source="2" target="136">
+  <data key="d10">7178</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:37:29</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112493</data>
+</edge>
+<edge source="2" target="130">
+  <data key="d10">7163</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">14</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:21:10</data>
+  <data key="d16">0.540258</data>
+  <data key="d17">0.0017000340006800491</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">116118</data>
+</edge>
+<edge source="2" target="16">
+  <data key="d10">7014</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:52:25</data>
+  <data key="d16">0.540251</data>
+  <data key="d17">0.0016533664006615205</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">119597</data>
+</edge>
+<edge source="2" target="77">
+  <data key="d10">7097</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:57:50</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122026</data>
+</edge>
+<edge source="2" target="132">
+  <data key="d10">7170</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:59:53</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122028</data>
+</edge>
+<edge source="2" target="73">
+  <data key="d10">7089</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:32:30</data>
+  <data key="d16">0.540242</data>
+  <data key="d17">0.0015933652006372748</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">126759</data>
+</edge>
+<edge source="2" target="91">
+  <data key="d10">7118</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:10</data>
+  <data key="d16">0.540239</data>
+  <data key="d17">0.0015733648006294398</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">129449</data>
+</edge>
+<edge source="2" target="76">
+  <data key="d10">7095</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 05:22:02</data>
+  <data key="d16">0.540236</data>
+  <data key="d17">0.0015533644006216047</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">132246</data>
+</edge>
+<edge source="2" target="78">
+  <data key="d10">7099</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:15:39</data>
+  <data key="d16">0.540233</data>
+  <data key="d17">0.0015333640006130293</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">135295</data>
+</edge>
+<edge source="2" target="14">
+  <data key="d10">7010</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:00:00</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142573</data>
+</edge>
+<edge source="2" target="24">
+  <data key="d10">7028</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:45:31</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">146872</data>
+</edge>
+<edge source="2" target="135">
+  <data key="d10">7176</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:29:06</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">146874</data>
+</edge>
+<edge source="2" target="53">
+  <data key="d10">7059</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:00</data>
+  <data key="d16">0.540221</data>
+  <data key="d17">0.0014533624005809488</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">151221</data>
+</edge>
+<edge source="2" target="75">
+  <data key="d10">7093</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:05:50</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157191</data>
+</edge>
+<edge source="2" target="89">
+  <data key="d10">7115</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:22:41</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157193</data>
+</edge>
+<edge source="2" target="19">
+  <data key="d10">7019</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:10</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163247</data>
+</edge>
+<edge source="2" target="134">
+  <data key="d10">7174</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:19:27</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163248</data>
+</edge>
+<edge source="2" target="92">
+  <data key="d10">7119</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:45:36</data>
+  <data key="d16">0.540212</data>
+  <data key="d17">0.0013933612005574433</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">170861</data>
+</edge>
+<edge source="2" target="133">
+  <data key="d10">7172</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:17:44</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179403</data>
+</edge>
+<edge source="2" target="90">
+  <data key="d10">7117</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:10</data>
+  <data key="d16">0.540206</data>
+  <data key="d17">0.001353360400541033</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">188995</data>
+</edge>
+<edge source="2" target="101">
+  <data key="d10">7129</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:20</data>
+  <data key="d16">0.5402</data>
+  <data key="d17">0.0013133596005253626</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">208752</data>
+</edge>
+<edge source="2" target="65">
+  <data key="d10">7072</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:43</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231887</data>
+</edge>
+<edge source="2" target="72">
+  <data key="d10">7087</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:57:25</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231888</data>
+</edge>
+<edge source="2" target="79">
+  <data key="d10">7101</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:57</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">231890</data>
+</edge>
+<edge source="2" target="13">
+  <data key="d10">7007</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:48:40</data>
+  <data key="d16">0.540188</data>
+  <data key="d17">0.001233358000493282</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">253046</data>
+</edge>
+<edge source="2" target="128">
+  <data key="d10">7159</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">14</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:29:29</data>
+  <data key="d16">0.540182</data>
+  <data key="d17">0.0011933572004776116</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">269741</data>
+</edge>
+<edge source="2" target="12">
+  <data key="d10">7005</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 01:16:30</data>
+  <data key="d16">0.540179</data>
+  <data key="d17">0.0011733568004690363</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">277456</data>
+</edge>
+<edge source="2" target="15">
+  <data key="d10">7012</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:11:57</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">301889</data>
+</edge>
+<edge source="2" target="30">
+  <data key="d10">7035</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:45:38</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322459</data>
+</edge>
+<edge source="2" target="35">
+  <data key="d10">7040</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:46:08</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322460</data>
+</edge>
+<edge source="2" target="80">
+  <data key="d10">7103</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:45:36</data>
+  <data key="d16">0.540151</data>
+  <data key="d17">0.0009866864003949215</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">341183</data>
+</edge>
+<edge source="2" target="124">
+  <data key="d10">7155</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:45:46</data>
+  <data key="d16">0.540133</data>
+  <data key="d17">0.0008666840003464305</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">408047</data>
+</edge>
+<edge source="2" target="18">
+  <data key="d10">7018</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">dos attacks-hulk</data>
+  <data key="d15">16/02/2018 01:47:19</data>
+  <data key="d16">0.540121</data>
+  <data key="d17">0.0007866824003143498</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">439932</data>
+</edge>
+<edge source="2" target="81">
+  <data key="d10">7104</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:25:35</data>
+  <data key="d16">0.540091</data>
+  <data key="d17">0.0005866784002345181</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">477535</data>
+</edge>
+<edge source="2" target="4">
+  <data key="d10">6993</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:30:04</data>
+  <data key="d16">0.54007</data>
+  <data key="d17">0.0004466756001789321</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">494558</data>
+</edge>
+<edge source="3" target="2">
+  <data key="d10">34558</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">329</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:06</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">8</data>
+</edge>
+<edge source="3" target="6">
+  <data key="d10">34561</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">149</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:28:46</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43652</data>
+</edge>
+<edge source="3" target="1">
+  <data key="d10">34557</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">42</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:12:11</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60988</data>
+</edge>
+<edge source="3" target="5">
+  <data key="d10">34560</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">52</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:38:23</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64632</data>
+</edge>
+<edge source="3" target="0">
+  <data key="d10">34556</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">250</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:28:32</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68342</data>
+</edge>
+<edge source="3" target="3">
+  <data key="d10">34559</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">29</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:29:08</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75279</data>
+</edge>
+<edge source="3" target="69">
+  <data key="d10">34563</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:25:10</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97959</data>
+</edge>
+<edge source="3" target="15">
+  <data key="d10">34562</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:53:48</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">302219</data>
+</edge>
+<edge source="4" target="2">
+  <data key="d10">34778</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:32:11</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">9</data>
+</edge>
+<edge source="4" target="6">
+  <data key="d10">34780</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:33</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43653</data>
+</edge>
+<edge source="4" target="1">
+  <data key="d10">34777</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:02:29</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60989</data>
+</edge>
+<edge source="4" target="5">
+  <data key="d10">34779</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:30:03</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64633</data>
+</edge>
+<edge source="4" target="0">
+  <data key="d10">34776</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:53:08</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68343</data>
+</edge>
+<edge source="5" target="2">
+  <data key="d10">34794</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:18:58</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">10</data>
+</edge>
+<edge source="5" target="6">
+  <data key="d10">34803</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:59:48</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43654</data>
+</edge>
+<edge source="5" target="1">
+  <data key="d10">34791</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:09:21</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60990</data>
+</edge>
+<edge source="5" target="5">
+  <data key="d10">34799</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:34:11</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64634</data>
+</edge>
+<edge source="5" target="0">
+  <data key="d10">34789</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">23</data>
+  <data key="d14">dos attacks-slowhttptest</data>
+  <data key="d15">16/02/2018 10:14:22</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68344</data>
+</edge>
+<edge source="5" target="3">
+  <data key="d10">34797</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">dos attacks-slowhttptest</data>
+  <data key="d15">16/02/2018 10:27:09</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75280</data>
+</edge>
+<edge source="5" target="131">
+  <data key="d10">34820</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 10:40:51</data>
+  <data key="d16">0.540321</data>
+  <data key="d17">0.0021200424008482877</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">82184</data>
+</edge>
+<edge source="5" target="74">
+  <data key="d10">34813</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:19:27</data>
+  <data key="d16">0.540315</data>
+  <data key="d17">0.0020800416008318772</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">84623</data>
+</edge>
+<edge source="5" target="70">
+  <data key="d10">34809</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:13:52</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87094</data>
+</edge>
+<edge source="5" target="68">
+  <data key="d10">34807</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 10:40:01</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90605</data>
+</edge>
+<edge source="5" target="69">
+  <data key="d10">34808</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:08:39</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97964</data>
+</edge>
+<edge source="5" target="129">
+  <data key="d10">34818</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 10:37:24</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105538</data>
+</edge>
+<edge source="5" target="71">
+  <data key="d10">34810</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:00:28</data>
+  <data key="d16">0.540267</data>
+  <data key="d17">0.0017600352007042946</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">110001</data>
+</edge>
+<edge source="5" target="130">
+  <data key="d10">34819</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 10:56:09</data>
+  <data key="d16">0.540258</data>
+  <data key="d17">0.0017000340006800491</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">116218</data>
+</edge>
+<edge source="5" target="73">
+  <data key="d10">34812</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:24:35</data>
+  <data key="d16">0.540242</data>
+  <data key="d17">0.0015933652006372748</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">126901</data>
+</edge>
+<edge source="5" target="76">
+  <data key="d10">34814</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 10:38:53</data>
+  <data key="d16">0.540236</data>
+  <data key="d17">0.0015533644006216047</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">132388</data>
+</edge>
+<edge source="5" target="133">
+  <data key="d10">34821</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:57:24</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179770</data>
+</edge>
+<edge source="5" target="72">
+  <data key="d10">34811</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:29:15</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232312</data>
+</edge>
+<edge source="5" target="128">
+  <data key="d10">34817</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:45:53</data>
+  <data key="d16">0.540182</data>
+  <data key="d17">0.0011933572004776116</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">270062</data>
+</edge>
+<edge source="5" target="80">
+  <data key="d10">34815</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">ftp-bruteforce</data>
+  <data key="d15">14/02/2018 11:49:17</data>
+  <data key="d16">0.540151</data>
+  <data key="d17">0.0009866864003949215</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">341715</data>
+</edge>
+<edge source="6" target="2">
+  <data key="d10">38466</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">36690</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:00</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">13</data>
+</edge>
+<edge source="6" target="6">
+  <data key="d10">38470</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">54687</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:10</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43657</data>
+</edge>
+<edge source="6" target="1">
+  <data key="d10">38465</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4057</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:10:51</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60993</data>
+</edge>
+<edge source="6" target="5">
+  <data key="d10">38469</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8143</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:01:21</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64638</data>
+</edge>
+<edge source="6" target="0">
+  <data key="d10">38464</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3706</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:03</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68346</data>
+</edge>
+<edge source="6" target="3">
+  <data key="d10">38467</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">133</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:00:17</data>
+  <data key="d16">0.541236</data>
+  <data key="d17">0.008220164403288334</data>
+  <data key="d18">0.2014</data>
+  <data key="d19">75282</data>
+</edge>
+<edge source="6" target="131">
+  <data key="d10">38508</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:15:55</data>
+  <data key="d16">0.540321</data>
+  <data key="d17">0.0021200424008482877</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">82200</data>
+</edge>
+<edge source="6" target="74">
+  <data key="d10">38491</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:10:44</data>
+  <data key="d16">0.540315</data>
+  <data key="d17">0.0020800416008318772</data>
+  <data key="d18">0.2004</data>
+  <data key="d19">84639</data>
+</edge>
+<edge source="6" target="70">
+  <data key="d10">38487</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:52:54</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87105</data>
+</edge>
+<edge source="6" target="67">
+  <data key="d10">38484</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:51:39</data>
+  <data key="d16">0.540306</data>
+  <data key="d17">0.0020200404008076317</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">88097</data>
+</edge>
+<edge source="6" target="68">
+  <data key="d10">38485</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:54:45</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90629</data>
+</edge>
+<edge source="6" target="69">
+  <data key="d10">38486</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:37:58</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">97977</data>
+</edge>
+<edge source="6" target="129">
+  <data key="d10">38506</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:05:10</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105569</data>
+</edge>
+<edge source="6" target="71">
+  <data key="d10">38488</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:55:08</data>
+  <data key="d16">0.540267</data>
+  <data key="d17">0.0017600352007042946</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">110037</data>
+</edge>
+<edge source="6" target="17">
+  <data key="d10">38476</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:59:44</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112630</data>
+</edge>
+<edge source="6" target="136">
+  <data key="d10">38513</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:52:36</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112631</data>
+</edge>
+<edge source="6" target="130">
+  <data key="d10">38507</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:59:14</data>
+  <data key="d16">0.540258</data>
+  <data key="d17">0.0017000340006800491</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">116241</data>
+</edge>
+<edge source="6" target="16">
+  <data key="d10">38475</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 01:42:15</data>
+  <data key="d16">0.540251</data>
+  <data key="d17">0.0016533664006615205</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">119758</data>
+</edge>
+<edge source="6" target="77">
+  <data key="d10">38494</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 05:26:19</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122183</data>
+</edge>
+<edge source="6" target="132">
+  <data key="d10">38509</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:13:45</data>
+  <data key="d16">0.540248</data>
+  <data key="d17">0.0016333660006529452</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">122184</data>
+</edge>
+<edge source="6" target="73">
+  <data key="d10">38490</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:27:54</data>
+  <data key="d16">0.540242</data>
+  <data key="d17">0.0015933652006372748</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">126927</data>
+</edge>
+<edge source="6" target="91">
+  <data key="d10">38501</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 11:42:24</data>
+  <data key="d16">0.540239</data>
+  <data key="d17">0.0015733648006294398</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">129596</data>
+</edge>
+<edge source="6" target="76">
+  <data key="d10">38493</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:40:40</data>
+  <data key="d16">0.540236</data>
+  <data key="d17">0.0015533644006216047</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">132405</data>
+</edge>
+<edge source="6" target="78">
+  <data key="d10">38495</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:32:46</data>
+  <data key="d16">0.540233</data>
+  <data key="d17">0.0015333640006130293</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">135507</data>
+</edge>
+<edge source="6" target="14">
+  <data key="d10">38473</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:03:32</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142804</data>
+</edge>
+<edge source="6" target="24">
+  <data key="d10">38479</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:30:15</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">147085</data>
+</edge>
+<edge source="6" target="135">
+  <data key="d10">38512</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:58:26</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">147086</data>
+</edge>
+<edge source="6" target="53">
+  <data key="d10">38482</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:15:06</data>
+  <data key="d16">0.540221</data>
+  <data key="d17">0.0014533624005809488</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">151505</data>
+</edge>
+<edge source="6" target="75">
+  <data key="d10">38492</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:05:56</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157448</data>
+</edge>
+<edge source="6" target="89">
+  <data key="d10">38499</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:34</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157449</data>
+</edge>
+<edge source="6" target="19">
+  <data key="d10">38478</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:45:11</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163564</data>
+</edge>
+<edge source="6" target="134">
+  <data key="d10">38511</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:27:12</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163565</data>
+</edge>
+<edge source="6" target="92">
+  <data key="d10">38502</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 09:46:48</data>
+  <data key="d16">0.540212</data>
+  <data key="d17">0.0013933612005574433</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">171217</data>
+</edge>
+<edge source="6" target="133">
+  <data key="d10">38510</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:49:19</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179782</data>
+</edge>
+<edge source="6" target="90">
+  <data key="d10">38500</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:35</data>
+  <data key="d16">0.540206</data>
+  <data key="d17">0.001353360400541033</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">189352</data>
+</edge>
+<edge source="6" target="101">
+  <data key="d10">38503</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:38:07</data>
+  <data key="d16">0.5402</data>
+  <data key="d17">0.0013133596005253626</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">209197</data>
+</edge>
+<edge source="6" target="65">
+  <data key="d10">38483</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:17:32</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232325</data>
+</edge>
+<edge source="6" target="72">
+  <data key="d10">38489</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:01:17</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232326</data>
+</edge>
+<edge source="6" target="79">
+  <data key="d10">38496</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:07:48</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232327</data>
+</edge>
+<edge source="6" target="13">
+  <data key="d10">38472</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:51:31</data>
+  <data key="d16">0.540188</data>
+  <data key="d17">0.001233358000493282</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">253394</data>
+</edge>
+<edge source="6" target="128">
+  <data key="d10">38505</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:41:28</data>
+  <data key="d16">0.540182</data>
+  <data key="d17">0.0011933572004776116</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">270083</data>
+</edge>
+<edge source="6" target="12">
+  <data key="d10">38471</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:04:33</data>
+  <data key="d16">0.540179</data>
+  <data key="d17">0.0011733568004690363</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">277730</data>
+</edge>
+<edge source="6" target="15">
+  <data key="d10">38474</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 01:53:54</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">302240</data>
+</edge>
+<edge source="6" target="30">
+  <data key="d10">38480</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:15:40</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322953</data>
+</edge>
+<edge source="6" target="35">
+  <data key="d10">38481</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:11:36</data>
+  <data key="d16">0.540158</data>
+  <data key="d17">0.0010333540004134503</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">322954</data>
+</edge>
+<edge source="6" target="80">
+  <data key="d10">38497</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:20:06</data>
+  <data key="d16">0.540151</data>
+  <data key="d17">0.0009866864003949215</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">341743</data>
+</edge>
+<edge source="6" target="124">
+  <data key="d10">38504</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:31:17</data>
+  <data key="d16">0.540133</data>
+  <data key="d17">0.0008666840003464305</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">408622</data>
+</edge>
+<edge source="6" target="18">
+  <data key="d10">38477</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:32:58</data>
+  <data key="d16">0.540121</data>
+  <data key="d17">0.0007866824003143498</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">440294</data>
+</edge>
+<edge source="6" target="81">
+  <data key="d10">38498</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:38:03</data>
+  <data key="d16">0.540091</data>
+  <data key="d17">0.0005866784002345181</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">477766</data>
+</edge>
+<edge source="6" target="4">
+  <data key="d10">38468</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:16:46</data>
+  <data key="d16">0.54007</data>
+  <data key="d17">0.0004466756001789321</data>
+  <data key="d18">0.2001</data>
+  <data key="d19">494709</data>
+</edge>
+<edge source="128" target="2">
+  <data key="d10">50867</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:41:28</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">134</data>
+</edge>
+<edge source="128" target="6">
+  <data key="d10">50869</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:29:29</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43692</data>
+</edge>
+<edge source="128" target="1">
+  <data key="d10">50866</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:09</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61111</data>
+</edge>
+<edge source="128" target="5">
+  <data key="d10">50868</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:45:53</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64649</data>
+</edge>
+<edge source="128" target="0">
+  <data key="d10">50865</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 08:42:41</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68358</data>
+</edge>
+<edge source="128" target="67">
+  <data key="d10">50870</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 08:40:38</data>
+  <data key="d16">0.540306</data>
+  <data key="d17">0.0020200404008076317</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">88129</data>
+</edge>
+<edge source="129" target="2">
+  <data key="d10">50898</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">16</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:06:31</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">135</data>
+</edge>
+<edge source="129" target="6">
+  <data key="d10">50900</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:20:06</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43693</data>
+</edge>
+<edge source="129" target="1">
+  <data key="d10">50897</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:31:57</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61112</data>
+</edge>
+<edge source="129" target="5">
+  <data key="d10">50899</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:42:25</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64650</data>
+</edge>
+<edge source="129" target="0">
+  <data key="d10">50896</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:52:29</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68359</data>
+</edge>
+<edge source="130" target="2">
+  <data key="d10">50941</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:49:00</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">136</data>
+</edge>
+<edge source="130" target="6">
+  <data key="d10">50943</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:32:57</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43694</data>
+</edge>
+<edge source="130" target="1">
+  <data key="d10">50940</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:32:00</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61113</data>
+</edge>
+<edge source="130" target="5">
+  <data key="d10">50942</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:36:14</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64651</data>
+</edge>
+<edge source="130" target="0">
+  <data key="d10">50939</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:14:00</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68360</data>
+</edge>
+<edge source="131" target="2">
+  <data key="d10">50982</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">18</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:36:22</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">137</data>
+</edge>
+<edge source="131" target="6">
+  <data key="d10">50984</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:39:58</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43695</data>
+</edge>
+<edge source="131" target="1">
+  <data key="d10">50981</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:32:04</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61114</data>
+</edge>
+<edge source="131" target="5">
+  <data key="d10">50983</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:40:51</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64652</data>
+</edge>
+<edge source="131" target="0">
+  <data key="d10">50980</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:26:18</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68361</data>
+</edge>
+<edge source="131" target="68">
+  <data key="d10">50985</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:44</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90686</data>
+</edge>
+<edge source="132" target="2">
+  <data key="d10">51034</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:46</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">138</data>
+</edge>
+<edge source="132" target="6">
+  <data key="d10">51035</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:50:57</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43696</data>
+</edge>
+<edge source="132" target="1">
+  <data key="d10">51033</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:19</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61115</data>
+</edge>
+<edge source="12" target="2">
+  <data key="d10">47523</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:52:40</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">19</data>
+</edge>
+<edge source="12" target="6">
+  <data key="d10">47524</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:05:46</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43658</data>
+</edge>
+<edge source="12" target="1">
+  <data key="d10">47522</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:04:33</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">60999</data>
+</edge>
+<edge source="13" target="2">
+  <data key="d10">47551</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:58:04</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">20</data>
+</edge>
+<edge source="13" target="6">
+  <data key="d10">47552</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 01:32:51</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43659</data>
+</edge>
+<edge source="13" target="1">
+  <data key="d10">47550</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:05:46</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61000</data>
+</edge>
+<edge source="13" target="0">
+  <data key="d10">47549</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:05:53</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68347</data>
+</edge>
+<edge source="14" target="2">
+  <data key="d10">47581</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:15:22</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">21</data>
+</edge>
+<edge source="14" target="6">
+  <data key="d10">47582</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:15:40</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43660</data>
+</edge>
+<edge source="14" target="1">
+  <data key="d10">47580</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:05:56</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61001</data>
+</edge>
+<edge source="14" target="14">
+  <data key="d10">47583</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:31:58</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142863</data>
+</edge>
+<edge source="14" target="15">
+  <data key="d10">47584</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:30</data>
+  <data key="d16">0.540167</data>
+  <data key="d17">0.0010933552004369557</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">302308</data>
+</edge>
+<edge source="15" target="2">
+  <data key="d10">47622</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:39:21</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">22</data>
+</edge>
+<edge source="15" target="6">
+  <data key="d10">47623</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:25:44</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43661</data>
+</edge>
+<edge source="15" target="1">
+  <data key="d10">47621</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:05:56</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61002</data>
+</edge>
+<edge source="15" target="0">
+  <data key="d10">47620</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:53:48</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68348</data>
+</edge>
+<edge source="15" target="14">
+  <data key="d10">47624</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:36:17</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142864</data>
+</edge>
+<edge source="15" target="75">
+  <data key="d10">47625</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:47:06</data>
+  <data key="d16">0.540218</data>
+  <data key="d17">0.0014333620005731135</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">157503</data>
+</edge>
+<edge source="16" target="2">
+  <data key="d10">47651</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">15</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:31:19</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">23</data>
+</edge>
+<edge source="16" target="6">
+  <data key="d10">47652</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:28:24</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43662</data>
+</edge>
+<edge source="16" target="1">
+  <data key="d10">47650</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:06:05</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61003</data>
+</edge>
+<edge source="16" target="0">
+  <data key="d10">47649</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:32:36</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68349</data>
+</edge>
+<edge source="17" target="2">
+  <data key="d10">47689</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:04:41</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">24</data>
+</edge>
+<edge source="17" target="6">
+  <data key="d10">47690</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:57:04</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43663</data>
+</edge>
+<edge source="17" target="1">
+  <data key="d10">47688</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:06:09</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61004</data>
+</edge>
+<edge source="18" target="2">
+  <data key="d10">47731</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:36</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">25</data>
+</edge>
+<edge source="18" target="1">
+  <data key="d10">47730</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:20:08</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61005</data>
+</edge>
+<edge source="19" target="2">
+  <data key="d10">47752</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:21:58</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">26</data>
+</edge>
+<edge source="19" target="6">
+  <data key="d10">47753</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:45:11</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43664</data>
+</edge>
+<edge source="19" target="1">
+  <data key="d10">47751</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:07:10</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61006</data>
+</edge>
+<edge source="19" target="92">
+  <data key="d10">47754</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:47:41</data>
+  <data key="d16">0.540212</data>
+  <data key="d17">0.0013933612005574433</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">171291</data>
+</edge>
+<edge source="24" target="2">
+  <data key="d10">47918</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:08:25</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">31</data>
+</edge>
+<edge source="24" target="6">
+  <data key="d10">47919</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:40</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43667</data>
+</edge>
+<edge source="24" target="1">
+  <data key="d10">47917</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:58</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61011</data>
+</edge>
+<edge source="30" target="2">
+  <data key="d10">48064</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:15:40</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">37</data>
+</edge>
+<edge source="30" target="1">
+  <data key="d10">48063</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:11:31</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61016</data>
+</edge>
+<edge source="133" target="2">
+  <data key="d10">51074</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">15</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:18:38</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">139</data>
+</edge>
+<edge source="133" target="6">
+  <data key="d10">51076</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:49:19</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43697</data>
+</edge>
+<edge source="133" target="1">
+  <data key="d10">51073</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:09:01</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61116</data>
+</edge>
+<edge source="133" target="5">
+  <data key="d10">51075</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:57:24</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64653</data>
+</edge>
+<edge source="133" target="0">
+  <data key="d10">51072</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:15:52</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68362</data>
+</edge>
+<edge source="133" target="16">
+  <data key="d10">51077</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:43:05</data>
+  <data key="d16">0.540251</data>
+  <data key="d17">0.0016533664006615205</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">119837</data>
+</edge>
+<edge source="133" target="134">
+  <data key="d10">51078</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:32:55</data>
+  <data key="d16">0.540215</data>
+  <data key="d17">0.0014133616005652784</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">163689</data>
+</edge>
+<edge source="35" target="2">
+  <data key="d10">48192</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:54</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">42</data>
+</edge>
+<edge source="35" target="1">
+  <data key="d10">48191</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:11:36</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61021</data>
+</edge>
+<edge source="134" target="2">
+  <data key="d10">51107</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:20:38</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">140</data>
+</edge>
+<edge source="134" target="6">
+  <data key="d10">51108</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:52:14</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43698</data>
+</edge>
+<edge source="134" target="1">
+  <data key="d10">51106</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:09:01</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61117</data>
+</edge>
+<edge source="134" target="133">
+  <data key="d10">51109</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:15:50</data>
+  <data key="d16">0.540209</data>
+  <data key="d17">0.001373360800549608</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">179919</data>
+</edge>
+<edge source="135" target="2">
+  <data key="d10">51145</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">15</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:11:04</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">141</data>
+</edge>
+<edge source="135" target="6">
+  <data key="d10">51146</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 03:52:49</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43699</data>
+</edge>
+<edge source="135" target="1">
+  <data key="d10">51144</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:33:06</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61118</data>
+</edge>
+<edge source="135" target="0">
+  <data key="d10">51143</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:21:53</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68363</data>
+</edge>
+<edge source="135" target="14">
+  <data key="d10">51147</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:35</data>
+  <data key="d16">0.540227</data>
+  <data key="d17">0.0014933632005973592</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">142899</data>
+</edge>
+<edge source="135" target="135">
+  <data key="d10">51148</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:37:54</data>
+  <data key="d16">0.540224</data>
+  <data key="d17">0.001473362800589524</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">147165</data>
+</edge>
+<edge source="136" target="2">
+  <data key="d10">51178</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:37:29</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">142</data>
+</edge>
+<edge source="136" target="6">
+  <data key="d10">51179</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:30:07</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43700</data>
+</edge>
+<edge source="136" target="1">
+  <data key="d10">51177</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:46:59</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61119</data>
+</edge>
+<edge source="53" target="2">
+  <data key="d10">48689</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:00</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">60</data>
+</edge>
+<edge source="53" target="1">
+  <data key="d10">48688</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:15:06</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61039</data>
+</edge>
+<edge source="65" target="2">
+  <data key="d10">48985</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:13</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">72</data>
+</edge>
+<edge source="65" target="1">
+  <data key="d10">48984</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:17:32</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61050</data>
+</edge>
+<edge source="67" target="2">
+  <data key="d10">49030</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">15</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:44:44</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">74</data>
+</edge>
+<edge source="67" target="6">
+  <data key="d10">49031</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:51:23</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43670</data>
+</edge>
+<edge source="67" target="1">
+  <data key="d10">49029</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:15</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61052</data>
+</edge>
+<edge source="67" target="129">
+  <data key="d10">49032</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:47:48</data>
+  <data key="d16">0.540273</data>
+  <data key="d17">0.001800036000719965</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">105612</data>
+</edge>
+<edge source="68" target="2">
+  <data key="d10">49084</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">14</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:32:49</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">75</data>
+</edge>
+<edge source="68" target="6">
+  <data key="d10">49086</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:27:15</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43671</data>
+</edge>
+<edge source="68" target="1">
+  <data key="d10">49083</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:04:57</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61053</data>
+</edge>
+<edge source="68" target="5">
+  <data key="d10">49085</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:39:35</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64639</data>
+</edge>
+<edge source="68" target="0">
+  <data key="d10">49082</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:58:53</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68350</data>
+</edge>
+<edge source="69" target="2">
+  <data key="d10">49131</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">16</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:37:58</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">76</data>
+</edge>
+<edge source="69" target="6">
+  <data key="d10">49133</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">11</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:48</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43672</data>
+</edge>
+<edge source="69" target="1">
+  <data key="d10">49130</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:32:22</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61054</data>
+</edge>
+<edge source="69" target="5">
+  <data key="d10">49132</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:08:39</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64640</data>
+</edge>
+<edge source="70" target="2">
+  <data key="d10">49179</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">19</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:51:45</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">77</data>
+</edge>
+<edge source="70" target="6">
+  <data key="d10">49181</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">8</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:03:45</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43673</data>
+</edge>
+<edge source="70" target="1">
+  <data key="d10">49178</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:48</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61055</data>
+</edge>
+<edge source="70" target="5">
+  <data key="d10">49180</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:11:45</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64641</data>
+</edge>
+<edge source="70" target="0">
+  <data key="d10">49177</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:02:49</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68351</data>
+</edge>
+<edge source="70" target="70">
+  <data key="d10">49183</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 11:54:58</data>
+  <data key="d16">0.540309</data>
+  <data key="d17">0.002040040800816207</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">87128</data>
+</edge>
+<edge source="70" target="69">
+  <data key="d10">49182</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:35</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">98007</data>
+</edge>
+<edge source="70" target="136">
+  <data key="d10">49184</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 05:11:01</data>
+  <data key="d16">0.540264</data>
+  <data key="d17">0.0017400348006957195</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">112685</data>
+</edge>
+<edge source="71" target="2">
+  <data key="d10">49228</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:01:05</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">78</data>
+</edge>
+<edge source="71" target="6">
+  <data key="d10">49230</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:54:57</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43674</data>
+</edge>
+<edge source="71" target="1">
+  <data key="d10">49227</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:49</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61056</data>
+</edge>
+<edge source="71" target="5">
+  <data key="d10">49229</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:15:47</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64642</data>
+</edge>
+<edge source="71" target="0">
+  <data key="d10">49226</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:55:09</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68352</data>
+</edge>
+<edge source="71" target="69">
+  <data key="d10">49231</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:39</data>
+  <data key="d16">0.540285</data>
+  <data key="d17">0.0018800376007520455</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">98009</data>
+</edge>
+<edge source="72" target="2">
+  <data key="d10">49270</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">15</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:02:35</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">79</data>
+</edge>
+<edge source="72" target="6">
+  <data key="d10">49272</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:24:55</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43675</data>
+</edge>
+<edge source="72" target="1">
+  <data key="d10">49269</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:11:22</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61057</data>
+</edge>
+<edge source="72" target="5">
+  <data key="d10">49271</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:29:15</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64643</data>
+</edge>
+<edge source="72" target="72">
+  <data key="d10">49273</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:29:02</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232432</data>
+</edge>
+<edge source="73" target="2">
+  <data key="d10">49299</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">10</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:27:54</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">80</data>
+</edge>
+<edge source="73" target="6">
+  <data key="d10">49301</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:25:08</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43676</data>
+</edge>
+<edge source="73" target="1">
+  <data key="d10">49298</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:18:56</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61058</data>
+</edge>
+<edge source="73" target="5">
+  <data key="d10">49300</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:19:22</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64644</data>
+</edge>
+<edge source="73" target="72">
+  <data key="d10">49302</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:56</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232433</data>
+</edge>
+<edge source="74" target="2">
+  <data key="d10">49342</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">14</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 09:43:27</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">81</data>
+</edge>
+<edge source="74" target="6">
+  <data key="d10">49344</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">13</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:07:23</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43677</data>
+</edge>
+<edge source="74" target="1">
+  <data key="d10">49341</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:13:06</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61059</data>
+</edge>
+<edge source="74" target="5">
+  <data key="d10">49343</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:52:20</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64645</data>
+</edge>
+<edge source="74" target="0">
+  <data key="d10">49340</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:36:36</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68353</data>
+</edge>
+<edge source="74" target="68">
+  <data key="d10">49345</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:57</data>
+  <data key="d16">0.5403</data>
+  <data key="d17">0.0019800396007919616</data>
+  <data key="d18">0.2003</data>
+  <data key="d19">90681</data>
+</edge>
+<edge source="75" target="2">
+  <data key="d10">49395</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:37:45</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">82</data>
+</edge>
+<edge source="75" target="6">
+  <data key="d10">49396</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">5</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 02:34:10</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43678</data>
+</edge>
+<edge source="75" target="1">
+  <data key="d10">49394</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:34</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61060</data>
+</edge>
+<edge source="75" target="0">
+  <data key="d10">49393</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:15:57</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68354</data>
+</edge>
+<edge source="76" target="2">
+  <data key="d10">49429</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:56:30</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">83</data>
+</edge>
+<edge source="76" target="6">
+  <data key="d10">49430</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 12:50:47</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43679</data>
+</edge>
+<edge source="76" target="1">
+  <data key="d10">49428</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:06:18</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61061</data>
+</edge>
+<edge source="77" target="2">
+  <data key="d10">49469</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">9</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 03:54:02</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">84</data>
+</edge>
+<edge source="77" target="6">
+  <data key="d10">49470</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 04:57:50</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43680</data>
+</edge>
+<edge source="77" target="1">
+  <data key="d10">49468</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:54</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61062</data>
+</edge>
+<edge source="77" target="79">
+  <data key="d10">49471</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:01</data>
+  <data key="d16">0.540194</data>
+  <data key="d17">0.0012733588005089521</data>
+  <data key="d18">0.2002</data>
+  <data key="d19">232434</data>
+</edge>
+<edge source="78" target="2">
+  <data key="d10">49510</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">12</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 05:26:19</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">85</data>
+</edge>
+<edge source="78" target="6">
+  <data key="d10">49511</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:03:08</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43681</data>
+</edge>
+<edge source="78" target="1">
+  <data key="d10">49509</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:54</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61063</data>
+</edge>
+<edge source="79" target="2">
+  <data key="d10">49548</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:36</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">86</data>
+</edge>
+<edge source="79" target="6">
+  <data key="d10">49549</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">4</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:11:09</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43682</data>
+</edge>
+<edge source="79" target="1">
+  <data key="d10">49547</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:19:57</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61064</data>
+</edge>
+<edge source="80" target="2">
+  <data key="d10">49582</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">3</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:06:46</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">87</data>
+</edge>
+<edge source="80" target="6">
+  <data key="d10">49584</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 04:47:51</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43683</data>
+</edge>
+<edge source="80" target="1">
+  <data key="d10">49581</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:33:40</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61065</data>
+</edge>
+<edge source="80" target="5">
+  <data key="d10">49583</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 11:49:17</data>
+  <data key="d16">0.562369</data>
+  <data key="d17">0.1491096488596439</data>
+  <data key="d18">0.2249</data>
+  <data key="d19">64646</data>
+</edge>
+<edge source="81" target="2">
+  <data key="d10">49607</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 05:45:12</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">88</data>
+</edge>
+<edge source="81" target="6">
+  <data key="d10">49608</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 08:54:10</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43684</data>
+</edge>
+<edge source="81" target="0">
+  <data key="d10">49606</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 09:18:21</data>
+  <data key="d16">0.559664</data>
+  <data key="d17">0.1310759548524307</data>
+  <data key="d18">0.2218</data>
+  <data key="d19">68355</data>
+</edge>
+<edge source="89" target="2">
+  <data key="d10">49825</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:47:02</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">96</data>
+</edge>
+<edge source="89" target="6">
+  <data key="d10">49826</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 01:22:41</data>
+  <data key="d16">0.59343</data>
+  <data key="d17">0.356187123742475</data>
+  <data key="d18">0.2594</data>
+  <data key="d19">43687</data>
+</edge>
+<edge source="89" target="1">
+  <data key="d10">49824</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:34</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61072</data>
+</edge>
+<edge source="90" target="2">
+  <data key="d10">49861</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:46:19</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">97</data>
+</edge>
+<edge source="90" target="1">
+  <data key="d10">49860</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:35</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61073</data>
+</edge>
+<edge source="91" target="2">
+  <data key="d10">49896</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">15/02/2018 10:37:53</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">98</data>
+</edge>
+<edge source="91" target="1">
+  <data key="d10">49895</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:08:02</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61074</data>
+</edge>
+<edge source="92" target="2">
+  <data key="d10">49936</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">6</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:31</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">99</data>
+</edge>
+<edge source="92" target="1">
+  <data key="d10">49935</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:21:49</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61075</data>
+</edge>
+<edge source="101" target="2">
+  <data key="d10">50174</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">16</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 10:19:00</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">108</data>
+</edge>
+<edge source="101" target="1">
+  <data key="d10">50173</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">1</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:24:33</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61084</data>
+</edge>
+<edge source="124" target="2">
+  <data key="d10">50783</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">7</data>
+  <data key="d14">benign</data>
+  <data key="d15">16/02/2018 01:45:46</data>
+  <data key="d16">0.69</data>
+  <data key="d17">1.0</data>
+  <data key="d18">0.3667</data>
+  <data key="d19">130</data>
+</edge>
+<edge source="124" target="1">
+  <data key="d10">50782</data>
+  <data key="d11">SERVICE_TRANSITION</data>
+  <data key="d12">CSE_CIC_IDS2018</data>
+  <data key="d13">2</data>
+  <data key="d14">benign</data>
+  <data key="d15">14/02/2018 02:31:17</data>
+  <data key="d16">0.562469</data>
+  <data key="d17">0.1497763288599105</data>
+  <data key="d18">0.225</data>
+  <data key="d19">61107</data>
+</edge>
+</graph></graphml>
