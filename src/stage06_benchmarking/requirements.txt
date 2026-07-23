@@ -1,0 +1,57 @@
+"""
+==============================================================
+AQAGC
+
+Stage 06
+
+Benchmarking and Evaluation
+
+Python Dependencies
+
+==============================================================
+"""
+
+
+# Core numerical processing
+
+numpy
+
+
+# Data handling
+
+pandas
+
+
+# Graph processing
+
+networkx
+
+
+# Statistical analysis
+
+scipy
+
+
+# Machine learning utilities
+# (ranking / metric helpers)
+
+scikit-learn
+
+
+# Quantum simulation support
+# Used only if Stage 04 quantum modules require it
+
+qiskit
+
+
+qiskit-aer
+
+
+# Visualization
+
+matplotlib
+
+
+# Memory profiling
+
+psutil
